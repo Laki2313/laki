@@ -1,0 +1,124 @@
+.container{
+    display: grid;
+    grid-template-areas:
+    "header center sidebar2"
+    "sidebar1 center sidebar2"
+    "sidebar1 footer sidebar2";
+    grid-gap: 10px;
+    height: 100vh;
+    margin: 0;
+    grid-template-rows: 20% 90% 100px;
+    grid-template-columns: 20% 70% 1fr;
+ }
+ 
+ .header{
+    text-align: center;
+    padding: 30px;
+    vertical-align: middle;
+    grid-area: header;
+    background-color:  #0E1B43;
+ }
+
+ .photo{
+   width: 128px;
+   margin-top: -19px;
+   margin-left: -9px;
+}
+ 
+ 
+ .main{
+    padding: 10px;
+    grid-area: center;
+   
+ }
+
+ .photoCon{
+   width: 355px;
+   height: 245px;
+   float: left;
+   margin-left: 676px;
+ }
+ 
+ .sidebar-2{
+    padding: 10px;
+    grid-area: sidebar2;
+    background-color: rgba(209, 219, 255, 0.53);
+    background-image: url('https://img.freepik.com/premium-photo/the-concept-of-network-connectivity-virtual-reality-illustration-fiber-optic-connection-and-telecommunications-abstract-blue-background-with-moving-lines-and-coordinates-3d-rendering_710001-649.jpg'); 
+    color: #ffffff;
+ }
+ 
+ .sidebar-1 {
+    padding: 10px;
+    grid-area:sidebar1;
+    color: #ffffff;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    background-image: url('https://img.freepik.com/premium-photo/the-concept-of-network-connectivity-virtual-reality-illustration-fiber-optic-connection-and-telecommunications-abstract-blue-background-with-moving-lines-and-coordinates-3d-rendering_710001-649.jpg'); 
+    background-size: cover;
+    background-position: center;
+
+ }
+ 
+ .footer{
+    padding: 10px;
+    grid-area: footer;
+    border-top: 3px solid rgba(209, 219, 255, 0.53);
+ }
+ 
+
+ .ukrnew{
+    font-size: 20px;
+    margin: 0;
+ }
+ 
+ .blueText{
+    color: #1e47a8;
+    font-size: 20px;
+    margin-bottom: -5px;
+    margin-top: 10px;
+ }
+ 
+ .littleText{
+    margin-bottom: 30px;
+ }
+ 
+ .data{
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 0;
+ }
+ 
+ .headerMain{
+   text-shadow: 25px 0 3px rgba(0, 0, 0, 0.10);
+   font-size: 50px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+   background: url("https://img.freepik.com/premium-photo/the-concept-of-network-connectivity-virtual-reality-illustration-fiber-optic-connection-and-telecommunications-abstract-blue-background-with-moving-lines-and-coordinates-3d-rendering_710001-649.jpg"), lightgray 50% / cover no-repeat;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-align: center;
+ }
+ 
+ .footer3{
+    font-size: 20px;
+    width: fit-content;
+    float: right;
+    margin-left: 30px;
+    margin-right: 70px;
+    color: #ffffff;
+    
+
+
+ }
+ 
+ .footer{
+    background-color:  #0E1B43;
+ }
+
+ .lastnew{
+    font-size: 20px;
+    padding: 15px;
+ }
+ 
